@@ -1,0 +1,52 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/bodybackground.jpg);
+}
+
+form {
+	background-color: grey;
+	padding: 20px;
+	margin: 100px auto;
+	width: 300px;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 10px 10px #ffffff;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+input[type="submit"] {
+	background-color: #6d6d6d;
+	color: rgb(255, 0, 0);
+	padding: 10px 20px ;
+	margin-left: 115px;
+	border: 1px solid white;
+	cursor: pointer;
+	box-shadow: 0px 0px 9px 5px #ffffff;
+}
+
+input[type="submit"]:hover {
+	background-color: #000000;
+}
+@import url('https://fonts.cdnfonts.com/css/minecraft-3');
+.bacwithaclick{
+
+	color: #ffffff;
+	text-shadow: 2px 1px 1px black;
+	font-size: 25px;
+	margin-left: 55px;
+	margin-bottom: 20px;
+	font-family: 'Minecraft', 'sans-serif';	
+	
+}
